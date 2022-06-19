@@ -1,15 +1,19 @@
 import './global.css'
 import { Header } from './components/Header'
 import { Input } from './components/Input'
-import { Tasks } from './components/Tasks'
+import { TaskCount } from './components/TaskCount'
+import { useState } from 'react'
+import { NoContent } from './components/NoContent'
 
 function App() {
+  const [task, setTask] = useState(0)
   return (
     <div>
       <Header />
       <div className={'App'}>
         <Input />
-        <Tasks />
+        <TaskCount task={task} completeTask={0} />
+        <NoContent />
       </div>
     </div>
   )
