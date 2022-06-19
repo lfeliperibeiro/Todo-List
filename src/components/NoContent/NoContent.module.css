@@ -1,0 +1,33 @@
+.noContent {
+  margin: 0 auto;
+  max-width: 736px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.noContent > span {
+  margin-top: 1.5rem;
+  border-top: 1px solid var(--gray-400);
+  width: 100%
+}
+
+.noContent > img {
+  margin-top: 4rem;
+}
+
+.noContentTitle{
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 700;
+  color: var(--gray-300);
+  margin-top: 1rem;
+}
+
+.noContentSubTitle{
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+  color: var(--gray-300);
+}
