@@ -16,7 +16,7 @@ export const TaskCount = ({ task, completeTask }: TaskCountProps) => {
           {task > 0 ? (
             <span
               className={styles.doneTaskCount}
-            >{`${task} de ${completeTask}`}</span>
+            >{`${completeTask} de ${task}`}</span>
           ) : (
             <span className={styles.createTasksCount}>{task}</span>
           )}
