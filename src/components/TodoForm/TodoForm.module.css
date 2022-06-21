@@ -12,6 +12,7 @@
   padding: 1rem 30rem 1rem  1rem ;
   border: none;
   border-radius: 8px;
+  color: var(--gray-100)
 }
 
 .container input::placeholder {
